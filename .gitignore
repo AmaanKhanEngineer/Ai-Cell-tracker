@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.next/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific temp data / large data
+backend/data/*.json
+!backend/data/5f0ca9b7-8529-4184-8b0f-786f34ceac19.json
